@@ -21,7 +21,13 @@ The group members working in this group are :
 - Mutia Wahyuni ([mutiawhy](github.com/mutiawhy))
 - Anugerah Erlaut ([aerlaut](github.com/aerlaut))
 
+## Setup
+
+We used Tensorflow to optimize a linear regression y = Ax + b. We used MSE as the loss function.
+
+The model was trained with a learning rate of 0.001. After 5000 steps, the model achieved convergence.
+
 ## Results
-Our model achieved a loss of 0.6 on the training set and 0.58 on the test set.
+Our model achieved a loss of 0.27 on the training set and the test set.
 
-
+Upon sampling in the test data, the model predicted prices on average 35% more or less than the real price. With the current model, we have not reached our goal of predicting - on average - a maximum 20% more or less than the predicted price.
